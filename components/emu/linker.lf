@@ -1,0 +1,6 @@
+[mapping:emu]
+archive: libemu.a
+entries:
+    tempest (noflash)
+    avg (noflash)
+    mathbox (noflash)
