@@ -26,7 +26,7 @@
 
 static const char *TAG = "INPUT";
 
-#define DEG_PER_COUNT  4.0f     /* twist this far to move the claw one position */
+#define DEG_PER_COUNT  2.5f     /* twist this far to move the claw one position (lower = more sensitive) */
 #define MAX_COUNTS     6        /* per frame; a whole lap of the web is 72 */
 #define SPIN_SIGN (-1.0f)       /* flip if the claw goes the wrong way */
 #define ZAP_WINDOW_US 400000    /* a second press this soon after the first is the superzapper */
